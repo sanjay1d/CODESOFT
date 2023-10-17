@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sanjay portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Img/Frame 143.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/bd68b59e72.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="container">
+      <h3 class="logo">Sanjay kumar k</h3>
+      <ul id="sidemenu">
+        <li onclick="closemenu()"><a class="nav__link" href="#">Home</a></li>
+        <li onclick="closemenu()">
+          <a class="nav__link" href="#about">About Me</a>
+        </li>
+        <li onclick="closemenu()">
+          <a class="nav__link" href="#portfolio">portfolio</a>
+        </li>
+        <li onclick="closemenu()">
+          <a class="nav__link" href="#contact">Contact</a>
+        </li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div id="header">
+      <div class="container">
+        <div class="hero">
+          <div class="header_text">
+            <p>Aspiring UI/UX Designer & Developer</p>
+            <h2>
+              Hello, I'm <br />
+              <strong> Sanjay kumar k</strong> <br />from Bengaluru
+            </h2>
+          </div>
+          <div class="myimage">
+            <img src="Img/Frame 143.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- poster -->
+    <div id="poster">
+      <div class="cover_img">
+        <img src="Img/LinkedIn cover - 5.png" alt="vover" />
+      </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+      <div class="container aboutcon">
+        <div class="about-col-2">
+          <h1 class="subtitle">About me</h1>
+          <p class="bio">
+            I am a dedicated BCA student with a profound passion for UI/UX
+            design, complemented by a strong skill set in frontend web
+            development. Armed with expertise in HTML, CSS, and JavaScript.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+              <li>
+                <span>Fontend Development</span><br />That inclues
+                HTML,CSS,Javascript
+              </li>
+              <li><span>ReactJS</span><br />Javascript frame work</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>Bachelor of computer Application (BCA)</span><br />MS
+                Ramaiah college of arts science and commerce
+              </li>
+              <li>
+                <span>12th Standard</span><br />Sheshadripuram composite PU
+                college
+              </li>
+              <li>
+                <span>10th Standard</span><br />A S Kupparaju and brothers
+                vidyaniketan
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>Freelancing</span><br />I freelanced for a student,
+                creating a captivating interior design website
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">portfolio</h1>
+        <div class="row">
+          <div class="col-1">
+            <a
+              href="https://www.behance.net/gallery/161325217/ola-electric-landing-page-(redesign)"
+              ><img src="Img/Desktop - 9.png" alt="Img" />
+              <div class="port-headings">
+                <h3>Ola Redesign landing page</h3>
+                <p>
+                  Introducing a reimagined Ola Electric Scooter landing page,
+                  thoughtfully crafted for intuitive navigation and engaging
+                  visuals, setting new standards for urban mobility exploration.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-1">
+            <a
+              href="https://www.behance.net/gallery/162653463/Interior-Design-studio-Landing-page-"
+              ><img src="Img/Frame 2.png" alt="Img" />
+              <div class="port-headings">
+                <h3>Interior designing landing page</h3>
+                <p>
+                  Unveil the all-new landing page for an interior design
+                  website, meticulously curated as a freelancer to offer
+                  seamless user experience and intuitive aesthetics,
+                  transforming visions into captivating realities
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="col-1">
+            <a
+              href="https://www.behance.net/gallery/175434969/Spatial-UI-Design"
+              ><img src="Img/tnp.jpg" alt="Img" />
+              <div class="port-headings">
+                <h3>Spatial UI Design</h3>
+                <p>
+                  Dive into the world of Spatial UI Design, a manifestation of
+                  Apple's visionary approach, meticulously crafted by me to
+                  redefine user experience through intuitive and immersive
+                  design, where technology and intuition converge seamlessly.
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="col-1">
+            <a href="https://www.behance.net/gallery/160203599/Dog-adoption-App"
+              ><img src="Img/Desktop - 3.png" alt="Img" />
+              <div class="port-headings">
+                <h3>Dog adoption App</h3>
+                <p>
+                  Explore mobile app for dog adoption, thoughtfully designed
+                  with enhanced user experience and intuitive interface, making
+                  the journey to find your furry friend a seamless and joyful
+                  experience.
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="col-1">
+            <a
+              href="https://www.behance.net/gallery/172220677/Prayanna(travel)-Landing-page-Tourism-Web-design"
+              ><img src="Img/Desktop - 8.png" alt="Img" />
+              <div class="port-headings">
+                <h3>prayanna landing page</h3>
+                <p>
+                  Prayanna, meaning "travel" in Kannada, reflects the spirit of
+                  our website. I have carefully crafted a user-friendly
+                  interface that allows you to navigate effortlessly through the
+                  diverse attractions, cultural heritage, and natural beauty of
+                  Karnataka
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="col-1">
+            <a
+              href="https://www.behance.net/gallery/158473353/fitness-studio-landing-page"
+              ><img src="Img/Desktop - 1.png" alt="Img" />
+              <div class="port-headings">
+                <h3>fitness studio landing page</h3>
+                <p>
+                  Immerse yourself in fitness studio's revamped landing page,
+                  tailored for fitness enthusiasts, offering an intuitive design
+                  and enhanced user experience to energize your journey towards
+                  wellness.
+                </p>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact me -->
+    <div id="contact">
+      <div class="container">
+        <h1 class="contact-text">Just an email away..</h1>
+        <div class="footer">
+          <div class="input-btn">
+            <a href="mailto:sanjaypersonal12@gmail.com"
+              ><input type="button" value="sanjaypersonal12@gmail.com"
+            /></a>
+          </div>
+          <div class="icon">
+            <a href="https://www.behance.net/sanjaykumar465/projects"
+              ><i class="fa-brands fa-behance"></i
+            ></a>
+            <a href="https://dribbble.com/sanjay1d/shots"
+              ><i class="fa-brands fa-dribbble"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/sanjay-kumar-k-035a1b289/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="resumemain" class="container">
+      <hr />
+      <div class="resume-sec">
+        <!-- <input type="button" value="Resume" /> -->
+        <p>check out</p>
+        <h4 class="h4re">
+          <i class="fa-solid fa-file"></i
+          ><a href="cv/Sanjay-CV.pdf" class="resume" download="sanjay"
+            >Resume</a
+          >
+        </h4>
+      </div>
+      <hr />
+    </div>
+
+    <div id="foo" class="container">
+      <span class="text first-text">I'm a </span>
+      <span class="text sec-text"></span>
+    </div>
+
+    <footer id="foo2" class="container">
+      <p class="copyr">© Copyright sanjay-portfolio</p>
+    </footer>
+
+    <script>
+      const text = document.querySelector(".sec-text");
+      const textload = () => {
+        setTimeout(() => {
+          text.textContent = "Developer";
+        }, 0);
+        setTimeout(() => {
+          text.textContent = "Designer";
+        }, 4000);
+      };
+
+      textload();
+      setInterval(textload, 8000);
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-100%";
+      }
+    </script>
+    <script>
+      document.querySelectorAll(".nav__link").forEach(function (el) {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          const id = this.getAttribute("href");
+          document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+  </body>
+</html>
